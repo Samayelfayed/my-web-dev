@@ -387,3 +387,57 @@
 .learn-more{
     margin-top: 24px;
 }
+
+
+/* Next target styles */
+
+#next-target{
+    max-width: 1140px;
+    height: 868px;
+    margin-top: 111px;
+        
+}
+
+.next-target-skill-title{
+    margin-bottom: 24px;
+}
+
+.next-target-skill-description{
+    margin-bottom: 48px;
+}
+
+.new-skills-container{
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px; 
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    margin-bottom: 24px;    
+    
+}
+
+.new-skill-content{
+    display: flex;
+    padding: 40px;
+}
+
+
+.next-skill-titles{
+    text-align: left;
+    margin-left: 24px;
+}
+
+.new-skill-1-title{
+    margin-bottom: 8px;
+}
+
+.new-skill-1-description{
+    margin-bottom: 24px;
+}
+
+
