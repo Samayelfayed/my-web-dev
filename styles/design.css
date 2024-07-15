@@ -78,7 +78,7 @@
 
 /* shared styles */
 
-    .section title{
+    .section-title{
             font-size: 32px;
             font-weight: 800px;
             color: rgb(13, 19, 33);
@@ -92,6 +92,10 @@
     background-color: rgba(13, 19, 33, 0.02);
     padding: 12px 20px 12px 20px;
     
+    }
+
+    .text-center{
+        text-align: center;
     }
 
     .btn-secondary{
@@ -329,4 +333,57 @@
 .inspire-border{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+}
+
+/* Target skill styles */
+
+
+#target-skills{
+    width: 1140px;
+    height: 463px;
+    margin-top: 149px;
+}
+
+.skill-title{
+    margin-bottom: 24px;
+}
+
+.skill-description{
+    margin-bottom: 48px;
+
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill1-target{
+    border-radius: 16px;
+    background-color:rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+
+.skill2-target{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+
+.skill3-target{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+
+.skill-target-title{
+    margin-top: 24px;
+}
+.skill-target-description{
+    margin-top: 8px;
+}
+
+.learn-more{
+    margin-top: 24px;
 }
