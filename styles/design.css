@@ -124,6 +124,7 @@
         max-width: 1140px;
         height: 1395px;
         margin-top: 74px;
+        border-radius: 16px;
 
         
     }
@@ -291,3 +292,41 @@
     }
 
 
+/* Ispiration section starts */
+
+#inspiration{
+    max-width: 1140px;
+    height: 777px;
+}
+
+.inspiration-title{
+    text-align: center;
+    margin-top: 88px;
+}
+
+
+
+.inspire-head{
+    margin-bottom: 24px;
+}
+
+.inspire-description{
+    margin-bottom: 48px;
+}
+
+
+.video-container{
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    height: 550px;
+    border-radius: 16px;
+    padding: 32px;
+    margin: 48px 0px;
+}
+
+
+.inspire-border{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
